@@ -1,0 +1,245 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\File;
+use Carbon\Carbon;
+use Illuminate\Database\Seeder;
+
+class FileSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        File::truncate();
+        $files = [
+            [
+                'path' => '/uploads/logo.png',
+                'slug' => 'logo',
+                'size' => 411,
+                'resolution' => '900x156',
+                'mime_type' => 'image/png',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/favicon.png',
+                'slug' => 'favicon',
+                'size' => 411,
+                'resolution' => '900x156',
+                'mime_type' => 'image/png',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/sliders/1920.jpg',
+                'slug' => '1920',
+                'size' => 775,
+                'resolution' => '1920x1080',
+                'mime_type' => 'image/jpg',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/properties/burger.png',
+                'slug' => 'burger',
+                'size' => 2,
+                'resolution' => '64x64',
+                'mime_type' => 'image/png',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri1.jpg',
+                'slug' => 'side',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri2.jpg',
+                'slug' => 'galeri2',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri3.jpg',
+                'slug' => 'galeri3',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri4.jpg',
+                'slug' => 'galeri4',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri5.jpg',
+                'slug' => 'galeri5',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri6.jpg',
+                'slug' => 'galeri6',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri7.jpg',
+                'slug' => 'galeri7',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri8.jpg',
+                'slug' => 'galeri8',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri9.jpg',
+                'slug' => 'galeri9',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri10.jpg',
+                'slug' => 'galeri10',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri11.jpg',
+                'slug' => 'galeri11',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri12.jpg',
+                'slug' => 'galeri12',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/galleries/galeri13.jpg',
+                'slug' => 'galeri13',
+                'size' => 256,
+                'resolution' => '1200x800',
+                'mime_type' => 'image/jpg',
+                'type' => 'gallery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/footer.jpg',
+                'slug' => 'footer_background',
+                'size' => 3300,
+                'resolution' => '1879x916',
+                'mime_type' => 'image/jpg',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/happy-customers/user.jpg',
+                'slug' => 'user',
+                'size' => 121,
+                'resolution' => '1560x1560',
+                'mime_type' => 'image/jpg',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/homepage-blocks/bize_sorun.png',
+                'slug' => 'bize_sorun',
+                'size' => 715,
+                'resolution' => '953x1158',
+                'mime_type' => 'image/png',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/homepage-blocks/happy_customer.jpg',
+                'slug' => 'happy_customer',
+                'size' => 296,
+                'resolution' => '1815x1674',
+                'mime_type' => 'image/jpg',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/franchise/map.jpg',
+                'slug' => 'map',
+                'size' => 217,
+                'resolution' => '788x1008',
+                'mime_type' => 'image/jpg',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'path' => '/uploads/homepage-blocks/hakkimizda.jpg',
+                'slug' => 'hakkimizda',
+                'size' => 600,
+                'resolution' => '788x1008',
+                'mime_type' => 'image/jpg',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+        ];
+        foreach ($files as $item) {
+            File::insert($item);
+        }
+    }
+}
